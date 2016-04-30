@@ -6,12 +6,12 @@ import time
 import random
 
 config = {
-    "ID": 10000,
-    "TokenID": "xxxxxxxxxxxxxxxxxxxxxxxx",
+    "ID": 10000,                                # 填写你自己的API Token ID
+    "TokenID": "xxxxxxxxxxxxxxxxxxxxxxxx",      # 填写你自己的API Token
     "domains":{
-        "youdomain.info": ['www', 'ftp']
+        "youdomain.info": ['www', 'ftp']        # 填写需要更新的域名及对应的记录
     },
-    "delay": 10
+    "delay": 10                                 # 检查时间
 }
 
 
